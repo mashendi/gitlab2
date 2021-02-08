@@ -1,0 +1,30 @@
+1 - created new project on my pc called gitlab2 and a remote repository with the same name
+2 - initialized the repo with "git init" creaded README.md file locally and commited it
+3 - added the remote repo to the origin with ( "git remote add origin git@github.com:mashendi/gitlab2.git" )
+4 - pushed the master branch to the remote repo with ( "git push -u origin master" ) 
+
+5 - created dev branch ( "git branch dev" )
+6 - created test branch ( "git branch test" )
+7 - checked out to dev branch ( "git checkout dev" ) 
+8 - added two files to dev branch and pushed them remotely ( "git push origin dev" )
+
+9 - checkout back to master branch ("git checkout master")
+10 - merged dev branch to master branch ("git merge dev")
+11 - pushed all to remote master branch ("git push origin master")
+
+
+12 - delete branch locally ( "git branch -d dev" )
+13 - delete branch remotely ( "git push origin --delete dev" )
+
+14 - created annoted tag v1.4 ( git tag -a v1.4 -m "version v1.4" )
+15 - pushed it to github ( git push origin v1.4 )
+16 - to list tags locally ( git tag )
+
+17 - delete tag locally ( git tag -d v1.4 )
+18 - delete tag remotely ( git push origin --delete v1.4 )
+
+
+Git rebase :
+	Rebasing is the process of moving or combining a sequence of commits to a new base commit.
+	
+	Example: You are working on a branch and want the recent changes from master but keeping your branch history clear 
