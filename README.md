@@ -27,3 +27,6 @@ Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## GitHub image
+![alt text](github.png?raw=true)
